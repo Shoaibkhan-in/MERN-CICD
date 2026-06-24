@@ -7,7 +7,7 @@ function Home() {
     const dispatch = useDispatch()
     return (
         <div>
-            <h1>Hello this is Home page</h1>
+            <h1>this is Home page</h1>
             <button onClick={()=>dispatch(increment())}>increment</button>
             <button onClick={()=>dispatch(decrement())}>decrement</button>
             <button onClick={()=>dispatch(incrementByCount(5))}>by count 5</button>
